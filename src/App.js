@@ -1,10 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
 import React from 'react';
-import { render } from '@testing-library/react';
+import axios from 'axios';
+
 
 class App extends React.Component {
   state = { advice: '' };
+ // use componentDidMount life-circle method to fetch.
+  componentDidMount(){
+
+  }
   render() {
   return (
     <div className="App">
