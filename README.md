@@ -1,4 +1,5 @@
-you can check and get advice form this link: https://react-exercise-advice-api.netlify.app/
+you can check and get advice form this link: https://react-exercise-advice-api.netlify.app/ and some advices are really funny.
+
 
 
 # Getting Started with Create React App
