@@ -1,4 +1,4 @@
-you can check and get advice form this link: https://react-exercise-advice-api.netlify.app/ and some advices are really funny.
+you can check and get advice from this link: https://react-exercise-advice-api.netlify.app/ and some advices are really funny.
 
 
 
