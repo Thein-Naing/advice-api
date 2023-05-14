@@ -7,8 +7,21 @@ class App extends React.Component {
   state = { advice: '' };
  // use componentDidMount life-circle method to fetch.
   componentDidMount(){
-      console.log("Hi")
+
+    this.fetchAdvice();
   }
+
+  fetchAdvice = () => {
+    axios.get('https://api.adviceslip.com/advice')
+      .then((response) => {
+          console.log(response);
+      })
+      .catch((error)=> {
+        console.log(error);
+      });
+  }
+
+   fetch
   render() {
   return (
     <div className="App">
