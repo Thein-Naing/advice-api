@@ -7,7 +7,7 @@ class App extends React.Component {
   state = { advice: '' };
  // use componentDidMount life-circle method to fetch.
   componentDidMount(){
-
+      console.log("Hi")
   }
   render() {
   return (
