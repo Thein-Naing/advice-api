@@ -42,20 +42,20 @@
 }
 
 .button {
-  .button {
+
     position: relative;
     outline: none;
     text-decoration: none;
-    border-radius: 50px;
+    border-radius: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
     cursor: pointer;
     text-transform: uppercase;
-    height: 200px;
-    width: 210px;
+    height: 400px;
+    width: 200px;
     opacity: 1;
-    background-color: #0f9a52;
+    background-color: #f2fe45;
     border: 1px solid rgba(22, 76, 167, 0.6);
   }
 
@@ -117,4 +117,3 @@
         height: 30%;
     }
   }
-}
