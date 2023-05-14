@@ -23,11 +23,13 @@ class App extends React.Component {
       });
   }
 
-   fetch
+
   render() {
-  return (
+    const { advice } = this.state;
+
+    return (
     <div className="App">
-      <h1>App</h1>
+      <h1>{advice}</h1>
     </div>
   );
 }
